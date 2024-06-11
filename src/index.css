@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/public/img/space.jpg'); /* Fondo de Pantalla */
+  background-size: cover;
+  color: #f0f0f0; /* Color de texto */
+  font-family: 'Star Jedi', sans-serif; /* Fuente de Texto */
+}
+/* Estilos para la página */
+.custom-title {
+  color: #ffe81f; /* Color de texto */
+  font-family: 'Star Jedi', sans-serif; /* Fuente de Texto */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilos para las tarjetas */
+.custom-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo de las tarjetas */
+  color: #f0f0f0; /* Color de texto dentro de las tarjetas */
+  border: 1px solid #f0f0f0; /* Borde de las tarjetas */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de las tarjetas */
+}
+
+.custom-card-title {
+  color: #ffe81f; /* Color del título de la tarjeta */
+}
+
+/* Estilos para el acordeón */
+.custom-accordion-header {
+  color: #ffe81f; /* Color del botón de acordeón */
+}
+
+/* Estilos para los spinners */
+.spinner-border {
+  color: #ffe81f; /* Color del spinner */
+}
+
+/* Estilos para los textos y enlaces */
+p, ul {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a {
+  color: #ffe81f; /* Color de los enlaces */
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffd000; /* Color de los enlaces cuando se pasa el ratón por encima */
 }

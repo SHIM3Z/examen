@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* Estilos para la página */
+.custom-title {
+  color: #ffe81f; /* Color de texto */
+  font-family: 'Star Jedi', sans-serif; /* Fuente de Texto */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para las tarjetas */
+.custom-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo de las tarjetas */
+  color: #f0f0f0; /* Color de texto dentro de las tarjetas */
+  border: 1px solid #f0f0f0; /* Borde de las tarjetas */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de las tarjetas */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-card-title {
+  color: #ffe81f; /* Color del título de la tarjeta */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estilos para el acordeón */
+.custom-accordion-header {
+  color: #ffe81f; /* Color del botón de acordeón */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para los spinners */
+.spinner-border {
+  color: #ffe81f; /* Color del spinner */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para los textos y enlaces */
+p, ul {
+  font-size: 18px;
+  line-height: 1.5;
 }
+
+a {
+  color: #ffe81f; /* Color de los enlaces */
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffd000; /* Color de los enlaces cuando se pasa el ratón por encima */
+}
+
