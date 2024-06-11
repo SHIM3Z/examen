@@ -1,49 +1,46 @@
 body {
-  background-image: url('/public/img/space.jpg'); /* Fondo de Pantalla */
+  background-image: url('/public/img/space.jpg');
   background-size: cover;
-  color: #f0f0f0; /* Color de texto */
-  font-family: 'Star Jedi', sans-serif; /* Fuente de Texto */
-}
-/* Estilos para la página */
-.custom-title {
-  color: #ffe81f; /* Color de texto */
-  font-family: 'Star Jedi', sans-serif; /* Fuente de Texto */
+  color: #f0f0f0; 
+  font-family: 'Star Jedi', sans-serif;
 }
 
-/* Estilos para las tarjetas */
+.custom-title {
+  color: #ffe81f;
+  font-family: 'Star Jedi', sans-serif; 
+}
+
+
 .custom-card {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo de las tarjetas */
-  color: #f0f0f0; /* Color de texto dentro de las tarjetas */
-  border: 1px solid #f0f0f0; /* Borde de las tarjetas */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f0f0f0; 
+  border: 1px solid #f0f0f0;
   border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de las tarjetas */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .custom-card-title {
-  color: #ffe81f; /* Color del título de la tarjeta */
+  color: #ffe81f; 
 }
 
-/* Estilos para el acordeón */
 .custom-accordion-header {
-  color: #ffe81f; /* Color del botón de acordeón */
+  color: #ffe81f;
 }
 
-/* Estilos para los spinners */
 .spinner-border {
-  color: #ffe81f; /* Color del spinner */
+  color: #ffe81f; 
 }
 
-/* Estilos para los textos y enlaces */
 p, ul {
   font-size: 18px;
   line-height: 1.5;
 }
 
 a {
-  color: #ffe81f; /* Color de los enlaces */
+  color: #ffe81f; 
 }
 
 a:hover {
   text-decoration: none;
-  color: #ffd000; /* Color de los enlaces cuando se pasa el ratón por encima */
+  color: #ffd000; 
 }

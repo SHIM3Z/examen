@@ -32,7 +32,7 @@ function CustomCard({ titulo, resumen, peliculaId }) {
     setIsAccordionOpen(!isAccordionOpen);
   };
 
-  const imagenUrl = `/img/${peliculaId}.jpg`; // Ruta de la imagen basada en el ID de la película
+  const imagenUrl = `/img/${peliculaId}.jpg`;
 
   const handleImageLoaded = () => {
     setBackgroundLoaded(true);
@@ -91,14 +91,14 @@ function App() {
 
   return (
     <Container>
-      <h1 className="text-center custom-title">Datos desde API Spring</h1>
+      <h1 className="text-center custom-title">Datos desde el API</h1>
       {data.map((item, index) => (
         <Row key={index} className="justify-content-center">
           <Col xs={12} lg={6}>
             <CustomCard
               titulo={item.titulo}
               resumen={item.resumen}
-              peliculaId={index + 1} // Asumiendo que la posición en la lista corresponde al ID de la película
+              peliculaId={index + 1}
             />
           </Col>
         </Row>
